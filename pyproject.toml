@@ -5,16 +5,14 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "furry_embeddings"
 version = "0.1.0"
-authors = [
-  { name="Zenith", email="zenith@entail.art" },
-]
+authors = [{ name = "Zenith", email = "zenith@entail.art" }]
 description = "Embeds images with furry-based information."
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
 ]
 
 dependencies = ["tensorflow==2.13.0", "scikit-learn==1.5.0"]
